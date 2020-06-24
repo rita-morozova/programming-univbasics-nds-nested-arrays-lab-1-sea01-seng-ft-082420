@@ -27,9 +27,7 @@ def sorted_matrix
 end
 
 def matrix_lookup(matrix, row, column)
-   produce_storage_room = [ [ "Grapefruit", "Pineapple",
-  "Oranges", "Watermelon", "Eggplant"].sort, ["Strawberries","Potatoes","Grapes", "Avocadoes","Asparagus"].sort ]
-  produce_storage_room[1][1]
+  matrix[row][column]
   # Given any matrix (array of arrays), a row index and a column index, 
   # Return the matrix's content at that row and and column
 end
